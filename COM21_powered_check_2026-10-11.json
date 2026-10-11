@@ -1,0 +1,30 @@
+[
+  {
+    "command": "initial",
+    "response": ""
+  },
+  {
+    "command": "M115",
+    "response": "FIRMWARE_NAME:Marlin -bugfix2.0.x-MKS-2.1.3 (Apr 27 2021 10:31:17) SOURCE_CODE_URL:github.com/MarlinFirmware/Marlin PROTOCOL_VERSION:1.0 MACHINE_TYPE:3D Printer EXTRUDER_COUNT:2 UUID:cede2a2f-41a2-4748-9b12-c55c62f367ff\nCap:SERIAL_XON_XOFF:0\nCap:BINARY_FILE_TRANSFER:0\nCap:EEPROM:1\nCap:VOLUMETRIC:1\nCap:AUTOREPORT_TEMP:1\nCap:PROGRESS:0\nCap:PRINT_JOB:1\nCap:AUTOLEVEL:0\nCap:RUNOUT:0\nCap:Z_PROBE:0\nCap:LEVELING_DATA:0\nCap:BUILD_PERCENT:0\nCap:SOFTWARE_POWER:0\nCap:TOGGLE_LIGHTS:0\nCap:CASE_LIGHT_BRIGHTNESS:0\nCap:EMERGENCY_PARSER:0\nCap:PROMPT_SUPPORT:0\nCap:SDCARD:1\nCap:REPEAT:0\nCap:AUTOREPORT_SD_STATUS:0\nCap:LONG_FILENAME:1\nCap:THERMAL_PROTECTION:1\nCap:MOTION_MODES:0\nCap:ARCS:1\nCap:BABYSTEPPING:1\nCap:CHAMBER_TEMPERATURE:0\nCap:MEATPACK:0\nok\n"
+  },
+  {
+    "command": "M122",
+    "response": "Testing X connection... OK\nTesting Y connection... Error: All LOW\nTesting Z connection... Error: All LOW\nTesting E connection... Error: All LOW\nTesting E1 connection... Error: All LOW\nok\n"
+  },
+  {
+    "command": "M906",
+    "response": "X driver current: 800\nY driver current: 800\nZ driver current: 800\nE driver current: 800\nE1 driver current: 800\nok\n"
+  },
+  {
+    "command": "M105",
+    "response": "ok T:-15.00 /0.00 B:-15.00 /0.00 T0:-15.00 /0.00 T1:-15.00 /0.00 @:0 B@:0 @0:0 @1:0\n"
+  },
+  {
+    "command": "M119",
+    "response": "Reporting endstop status\nx_min: TRIGGERED\ny_min: TRIGGERED\nz_min: TRIGGERED\nok\n"
+  },
+  {
+    "command": "M114",
+    "response": "X:0.00 Y:0.00 Z:0.00 E:0.00 Count X:0 Y:0 Z:0\nok\n"
+  }
+]

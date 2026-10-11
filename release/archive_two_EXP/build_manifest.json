@@ -1,0 +1,15 @@
+{
+  "board": "MKS Robin Nano V3.1",
+  "environment": "mks_robin_nano_v3_1",
+  "flash_address": "0x0800C000",
+  "file_bytes": 264552,
+  "sha256": "b121f0b3790fe82f52bacfb456f62fcda185631c59619501591734afda1b5457",
+  "initial_stack": "0x2001ffd8",
+  "reset_handler": "0x800dc85",
+  "flash_used": 264028,
+  "flash_available": 475136,
+  "ram_used": 49448,
+  "ram_available": 131072,
+  "original_project_unchanged": true,
+  "hardware_verification": "not flashed"
+}

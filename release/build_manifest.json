@@ -1,0 +1,32 @@
+{
+  "board": "MKS Robin Nano V3.1",
+  "environment": "mks_robin_nano_v3_1",
+  "flash_address": "0x0800C000",
+  "file_bytes": 264992,
+  "sha256": "0ad3afcd8c5d4dafe16ff5a6f555c34c7ee8b1bbef0e3cf7d0b5b1e0f00fe0f7",
+  "initial_stack": "0x2001ffd8",
+  "reset_handler": "0x800dc85",
+  "flash_used": 264468,
+  "flash_available": 475136,
+  "ram_used": 49448,
+  "ram_available": 131072,
+  "original_project_unchanged": true,
+  "hardware_verification": "User confirmed display/touch calibration and BLTouch operation; M119 probe trigger, homing and G29 not separately recorded",
+  "display_connector": "EXP2 only",
+  "display_pins": {
+    "CS": "PE10",
+    "DC": "PE12",
+    "RST": "PE8",
+    "TOUCH_CS": "PE11",
+    "SCK": "PA5",
+    "MISO_TOUCH": "PA6",
+    "MOSI": "PA7",
+    "BL": "3V3"
+  },
+  "display_rotation": "TFT_ROTATE_180",
+  "display_inversion": "INVON",
+  "touch_spi_mode": 0,
+  "touch_spi_hz": 125000,
+  "touch_diagnostics": "M995 D reports raw X Y Z1 Z2",
+  "touch_spi_implementation": "software mode 0 with GPIO restoration for TFT"
+}

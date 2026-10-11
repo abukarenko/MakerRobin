@@ -1,0 +1,94 @@
+[
+  {
+    "command": "M122",
+    "response": "Testing X connection... OK\nTesting Y connection... Error: All LOW\nTesting Z connection... Error: All LOW\nTesting E connection... Error: All LOW\nTesting E1 connection... Error: All LOW\nok\n"
+  },
+  {
+    "command": "M569",
+    "response": "X driver mode:\tstealthChop\nY driver mode:\tstealthChop\nZ driver mode:\tstealthChop\nE driver mode:\tstealthChop\nE1 driver mode:\tstealthChop\nok\n"
+  },
+  {
+    "command": "M211",
+    "response": "echo:Soft endstops: ON  Min:  X0.00 Y0.00 Z0.00   Max:  X220.00 Y220.00 Z250.00\nok\n"
+  },
+  {
+    "command": "M906",
+    "response": "X driver current: 800\nY driver current: 800\nZ driver current: 800\nE driver current: 800\nE1 driver current: 800\nok\n"
+  },
+  {
+    "command": "M114",
+    "response": "X:0.00 Y:0.00 Z:0.00 E:0.00 Count X:0 Y:0 Z:0\nok\n"
+  },
+  {
+    "command": "M211 S0",
+    "response": "echo:Soft endstops: OFF  Min:  X0.00 Y0.00 Z0.00   Max:  X220.00 Y220.00 Z250.00\nok\n"
+  },
+  {
+    "command": "G91",
+    "response": "ok\n"
+  },
+  {
+    "command": "M569 S1 X",
+    "response": "ok\n"
+  },
+  {
+    "command": "M569",
+    "response": "X driver mode:\tstealthChop\nY driver mode:\tstealthChop\nZ driver mode:\tstealthChop\nE driver mode:\tstealthChop\nE1 driver mode:\tstealthChop\nok\n"
+  },
+  {
+    "command": "G1 X750 F3000",
+    "response": "ok\n"
+  },
+  {
+    "command": "M400",
+    "response": "echo:busy: processing\necho:busy: processing\necho:busy: processing\necho:busy: processing\necho:busy: processing\necho:busy: processing\necho:busy: processing\nok\n"
+  },
+  {
+    "command": "G4 P1000",
+    "response": "ok\n"
+  },
+  {
+    "command": "M569 S0 X",
+    "response": "ok\n"
+  },
+  {
+    "command": "M569",
+    "response": "X driver mode:\tspreadCycle\nY driver mode:\tstealthChop\nZ driver mode:\tstealthChop\nE driver mode:\tstealthChop\nE1 driver mode:\tstealthChop\nok\n"
+  },
+  {
+    "command": "G1 X-750 F3000",
+    "response": "ok\n"
+  },
+  {
+    "command": "M400",
+    "response": "echo:busy: processing\necho:busy: processing\necho:busy: processing\necho:busy: processing\necho:busy: processing\necho:busy: processing\necho:busy: processing\nok\n"
+  },
+  {
+    "command": "G4 P1000",
+    "response": "ok\n"
+  },
+  {
+    "command": "M569 S1 X",
+    "response": "ok\n"
+  },
+  {
+    "command": "G90",
+    "response": "ok\n"
+  },
+  {
+    "command": "M211 S1",
+    "response": "echo:Soft endstops: ON  Min:  X0.00 Y0.00 Z0.00   Max:  X220.00 Y220.00 Z250.00\nok\n"
+  },
+  {
+    "command": "M18 X",
+    "response": "ok\n"
+  },
+  {
+    "command": "M114",
+    "response": "X:0.00 Y:0.00 Z:0.00 E:0.00 Count X:0 Y:0 Z:0\nok\n"
+  },
+  {
+    "command": "M122",
+    "response": "Testing X connection... OK\nTesting Y connection... Error: All LOW\nTesting Z connection... Error: All LOW\nTesting E connection... Error: All LOW\nTesting E1 connection... Error: All LOW\nok\n"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "platformio.ini": {
+    "original_sha256": "d7b3247db2efbc67aa6da2456cf83c3d98eb687b8bf55f61ef0b357216f44f9c",
+    "robin_sha256": "681d9bd7a27d429600c22a1c3b13cc4b4d994b7034267e4dd397816a7bf0085d"
+  },
+  "Marlin/Configuration.h": {
+    "original_sha256": "b58bf38f3027602e540d407b1ec526a32d2e23b6063a302e08b8c2a00ea01706",
+    "robin_sha256": "e46929ab04d4c6b8cc3e8ce13ba1fb68a161aefda35cfe94cec2b8d07887a3c1"
+  },
+  "Marlin/Configuration_adv.h": {
+    "original_sha256": "4f52f866e45622ba8f76fdfe98945fcb68b5441f87f5906f787a3ff3f64d3f74",
+    "robin_sha256": "169a1878738b526482d23ef82f6a5f3a2d5bada1565f434c1cf41a4e334cdaf7"
+  },
+  "Marlin/src/lcd/tft_io/ili9488.h": {
+    "original_sha256": "512480aab4a5f9b58ef61978bdcea8a1ff8830293fcda2cc74ee722088c36c97",
+    "robin_sha256": "c225753165849dc3085593b65d443a9b02578c276a74f92e039fc98b47ebc00c"
+  },
+  "Marlin/src/HAL/STM32/tft/tft_spi.cpp": {
+    "original_sha256": "c249dc7ab1dcc0215f7d74d5114400ae663fea0e40cd189a6b4f040eb5176f0e",
+    "robin_sha256": "560f3e42de889082d5371c877cb0886334404c42c46d2c185cd9818880ce7af9"
+  },
+  "Marlin/src/pins/stm32f4/pins_MKS_ROBIN_NANO_V3_common.h": {
+    "original_sha256": "12c441f2c403b43f9ebe320176051ebd8b1bc6324885e9bce66baf291c3e7480",
+    "robin_sha256": "f5bb5bdbd56c78dc2c753e14d2bb76f4f02e0e630f868d57d5b68645f8454e09"
+  },
+  "Marlin/src/HAL/STM32/tft/xpt2046.cpp": {
+    "original_sha256": "a7aa8c77fbdc825009e73daba5b0e97b9b496f0e173b8e1023199aed5626ac7c",
+    "robin_sha256": "0bf4ae6b51e4138dd1f37259dfef1d4e043de45f4b8c9c2602d10161a44ca2b2"
+  },
+  "Marlin/src/HAL/STM32/tft/xpt2046.h": {
+    "original_sha256": "d0149f19733d5f6a9e2535bf9332e1d2b99135a10b301a6c9e0c981a5b7ce0d5",
+    "robin_sha256": "4d68b829cd441baef0999f6a7426523160051451941c0924af688adec09ab6a8"
+  },
+  "Marlin/src/gcode/lcd/M995.cpp": {
+    "original_sha256": "d268b77dcdcc609862315b1c35d632facfb0380bf482d3e03bf625baec0be5b4",
+    "robin_sha256": "90f7b447241037e0efff957f6055f361e98bf48e11c38fdcc4e45b79bb4f0929"
+  }
+}

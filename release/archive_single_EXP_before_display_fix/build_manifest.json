@@ -1,0 +1,26 @@
+{
+  "board": "MKS Robin Nano V3.1",
+  "environment": "mks_robin_nano_v3_1",
+  "flash_address": "0x0800C000",
+  "file_bytes": 264496,
+  "sha256": "b3a61da4ef69356b2a25eb687c5cc5c41b31d3a7ed91bf47d24355015138fa3b",
+  "initial_stack": "0x2001ffd8",
+  "reset_handler": "0x800dc85",
+  "flash_used": 263972,
+  "flash_available": 475136,
+  "ram_used": 49448,
+  "ram_available": 131072,
+  "original_project_unchanged": true,
+  "hardware_verification": "not flashed",
+  "display_connector": "EXP2 only",
+  "display_pins": {
+    "CS": "PE10",
+    "DC": "PE12",
+    "RST": "PE8",
+    "TOUCH_CS": "PE11",
+    "SCK": "PA5",
+    "MISO_TOUCH": "PA6",
+    "MOSI": "PA7",
+    "BL": "3V3"
+  }
+}

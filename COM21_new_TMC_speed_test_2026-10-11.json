@@ -1,0 +1,90 @@
+[
+  {
+    "command": "G91",
+    "response": "ok\n"
+  },
+  {
+    "command": "G1 X5 F60",
+    "response": "ok\n"
+  },
+  {
+    "command": "M400",
+    "response": "echo:busy: processing\necho:busy: processing\nok\n"
+  },
+  {
+    "command": "G4 P500",
+    "response": "ok\n"
+  },
+  {
+    "command": "G1 X-5 F60",
+    "response": "ok\n"
+  },
+  {
+    "command": "M400",
+    "response": "echo:busy: processing\necho:busy: processing\nok\n"
+  },
+  {
+    "command": "G4 P500",
+    "response": "ok\n"
+  },
+  {
+    "command": "G1 X20 F600",
+    "response": "ok\n"
+  },
+  {
+    "command": "M400",
+    "response": "ok\n"
+  },
+  {
+    "command": "G4 P500",
+    "response": "ok\n"
+  },
+  {
+    "command": "G1 X-20 F600",
+    "response": "ok\n"
+  },
+  {
+    "command": "M400",
+    "response": "ok\n"
+  },
+  {
+    "command": "G4 P500",
+    "response": "ok\n"
+  },
+  {
+    "command": "G1 X40 F3000",
+    "response": "ok\n"
+  },
+  {
+    "command": "M400",
+    "response": "ok\n"
+  },
+  {
+    "command": "G4 P500",
+    "response": "ok\n"
+  },
+  {
+    "command": "G1 X-40 F3000",
+    "response": "ok\n"
+  },
+  {
+    "command": "M400",
+    "response": "ok\n"
+  },
+  {
+    "command": "G4 P500",
+    "response": "ok\n"
+  },
+  {
+    "command": "G90",
+    "response": "ok\n"
+  },
+  {
+    "command": "M18 X",
+    "response": "ok\n"
+  },
+  {
+    "command": "M114",
+    "response": "X:0.00 Y:0.00 Z:0.00 E:0.00 Count X:0 Y:0 Z:0\nok\n"
+  }
+]

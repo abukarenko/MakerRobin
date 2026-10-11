@@ -1,0 +1,54 @@
+[
+  {
+    "command": "initial",
+    "response": ""
+  },
+  {
+    "command": "M115",
+    "response": "FIRMWARE_NAME:Marlin -bugfix2.0.x-MKS-2.1.3 (Apr 27 2021 10:31:17) SOURCE_CODE_URL:github.com/MarlinFirmware/Marlin PROTOCOL_VERSION:1.0 MACHINE_TYPE:3D Printer EXTRUDER_COUNT:2 UUID:cede2a2f-41a2-4748-9b12-c55c62f367ff\nCap:SERIAL_XON_XOFF:0\nCap:BINARY_FILE_TRANSFER:0\nCap:EEPROM:1\nCap:VOLUMETRIC:1\nCap:AUTOREPORT_TEMP:1\nCap:PROGRESS:0\nCap:PRINT_JOB:1\nCap:AUTOLEVEL:0\nCap:RUNOUT:0\nCap:Z_PROBE:0\nCap:LEVELING_DATA:0\nCap:BUILD_PERCENT:0\nCap:SOFTWARE_POWER:0\nCap:TOGGLE_LIGHTS:0\nCap:CASE_LIGHT_BRIGHTNESS:0\nCap:EMERGENCY_PARSER:0\nCap:PROMPT_SUPPORT:0\nCap:SDCARD:1\nCap:REPEAT:0\nCap:AUTOREPORT_SD_STATUS:0\nCap:LONG_FILENAME:1\nCap:THERMAL_PROTECTION:1\nCap:MOTION_MODES:0\nCap:ARCS:1\nCap:BABYSTEPPING:1\nCap:CHAMBER_TEMPERATURE:0\nCap:MEATPACK:0\nok\n"
+  },
+  {
+    "command": "M503",
+    "response": "echo:  G21    ; Units in mm (mm)\n\necho:; Filament settings: Disabled\necho:  M200 T0 D1.75\necho:  M200 T1 D1.75\necho:  M200 S0\necho:; Steps per unit:\necho: M92 X80.00 Y80.00 Z400.00 E133.00\necho:; Maximum feedrates (units/s):\necho:  M203 X300.00 Y300.00 Z5.00 E25.00\necho:; Maximum Acceleration (units/s2):\necho:  M201 X3000.00 Y3000.00 Z100.00 E10000.00\necho:; Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>\necho:  M204 P3000.00 R3000.00 T3000.00\necho:; Advanced: B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> J<junc_dev>\necho:  M205 B20000.00 S0.00 T0.00 J0.01\necho:; Home offset:\necho:  M206 X0.00 Y0.00 Z0.00\necho:; Hotend offsets:\necho:  M218 T1 X0.00 Y0.00 Z0.000\necho:; PID settings:\necho:  M301 P22.20 I1.08 D114.00\necho:  M301 P22.20 I1.08 D114.00\necho:; Power-Loss Recovery:\necho:  M413 S1\necho:; Stepper driver current:\necho:  M906 X800 Y800 Z800\necho:  M906 T0 E800\necho:  M906 T1 E800\n\necho:; Driver stepping mode:\necho:  M569 S1 X Y Z\necho:  M569 S1 T0 E\necho:  M569 S1 T1 E\necho:; Tool-changing:\necho: Z2.00\nok\n"
+  },
+  {
+    "command": "M105",
+    "response": "ok T:-15.00 /0.00 B:-15.00 /0.00 T0:-15.00 /0.00 T1:-15.00 /0.00 @:0 B@:0 @0:0 @1:0\n"
+  },
+  {
+    "command": "M114",
+    "response": "X:0.00 Y:0.00 Z:0.00 E:0.00 Count X:0 Y:0 Z:0\nok\n"
+  },
+  {
+    "command": "M119",
+    "response": "Reporting endstop status\nx_min: TRIGGERED\ny_min: TRIGGERED\nz_min: TRIGGERED\nok\n"
+  },
+  {
+    "command": "M27",
+    "response": "Not SD printing\nok\n"
+  },
+  {
+    "command": "M20",
+    "response": "echo:No media\nok\n"
+  },
+  {
+    "command": "M122",
+    "response": "Testing X connection... Error: All LOW\nTesting Y connection... Error: All LOW\nTesting Z connection... Error: All LOW\nTesting E connection... Error: All LOW\nTesting E1 connection... Error: All LOW\nok\n"
+  },
+  {
+    "command": "M211",
+    "response": "echo:Soft endstops: ON  Min:  X0.00 Y0.00 Z0.00   Max:  X220.00 Y220.00 Z250.00\nok\n"
+  },
+  {
+    "command": "M420",
+    "response": "echo:Unknown command: \"M420\"\nok\n"
+  },
+  {
+    "command": "M900",
+    "response": "echo:Unknown command: \"M900\"\nok\n"
+  },
+  {
+    "command": "M851",
+    "response": "echo:Unknown command: \"M851\"\nok\n"
+  }
+]

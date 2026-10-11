@@ -1,0 +1,31 @@
+{
+  "board": "MKS Robin Nano V3.1",
+  "environment": "mks_robin_nano_v3_1",
+  "flash_address": "0x0800C000",
+  "file_bytes": 264808,
+  "sha256": "5bde32149064c4622a49eecc629267cbbbb3a7790294596f2779b6006be5244b",
+  "initial_stack": "0x2001ffd8",
+  "reset_handler": "0x800dc85",
+  "flash_used": 264284,
+  "flash_available": 475136,
+  "ram_used": 49448,
+  "ram_available": 131072,
+  "original_project_unchanged": true,
+  "hardware_verification": "touch diagnostic build not flashed",
+  "display_connector": "EXP2 only",
+  "display_pins": {
+    "CS": "PE10",
+    "DC": "PE12",
+    "RST": "PE8",
+    "TOUCH_CS": "PE11",
+    "SCK": "PA5",
+    "MISO_TOUCH": "PA6",
+    "MOSI": "PA7",
+    "BL": "3V3"
+  },
+  "display_rotation": "TFT_ROTATE_180",
+  "display_inversion": "INVON",
+  "touch_spi_mode": 0,
+  "touch_spi_hz": 1312500,
+  "touch_diagnostics": "M995 D reports raw X Y Z1 Z2"
+}
